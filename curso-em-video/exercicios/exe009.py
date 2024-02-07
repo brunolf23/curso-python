@@ -1,0 +1,22 @@
+inteiro = int(input('Qual número você gostaria de multiplicar?: '))
+n1 = inteiro * 1
+n2 = inteiro * 2
+n3 = inteiro * 3
+n4 = inteiro * 4
+n5 = inteiro * 5
+n6 = inteiro * 6
+n7 = inteiro * 7
+n8 = inteiro * 8
+n9 = inteiro * 9
+n10 = inteiro * 10
+
+print(f'1 x {inteiro} = {n1}')
+print(f'2 x {inteiro} = {n2}')
+print(f'3 x {inteiro} = {n3}')
+print(f'4 x {inteiro} = {n4}')
+print(f'5 x {inteiro} = {n5}')
+print(f'6 x {inteiro} = {n6}')
+print(f'7 x {inteiro} = {n7}')
+print(f'8 x {inteiro} = {n8}')
+print(f'9 x {inteiro} = {n9}')
+print(f'10 x {inteiro} = {n10}')
