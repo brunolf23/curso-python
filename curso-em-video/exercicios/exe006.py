@@ -3,4 +3,4 @@ do = n1 * 2
 tri = n1 * 3
 qua = n1 ** (1/2)
 
-print(f'O dobro de {n1} é {do}, o triplo de {n1} é {tri}, e a raiz quadrada é {qua:,.5}.')
+print(f' O dobro de {n1} vale {do}.\n O triplo de {n1} vale {tri}.\n A raiz quadrada de {n1} vale {qua:.2f}.')
