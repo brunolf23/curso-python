@@ -1,3 +1,5 @@
+# Aumentos múltiplos
+
 salario = int(input('Qual o valor do seu salário? R$'))
 
 if salario > 1250:

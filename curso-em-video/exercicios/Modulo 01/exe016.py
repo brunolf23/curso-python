@@ -1,3 +1,5 @@
+# Quebrando um número
+
 from math import trunc
 
 real = float(input('Qual o valor inteiro: '))

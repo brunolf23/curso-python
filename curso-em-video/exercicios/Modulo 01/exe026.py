@@ -1,3 +1,5 @@
+# Primeira e última ocorrência de uma string
+
 letra = str(input('Digite uma frase: ')).upper().strip()
 
 print (f'A letra A aparece {letra.count('A')} vezes na frase.')

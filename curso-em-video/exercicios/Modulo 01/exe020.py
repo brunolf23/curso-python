@@ -1,3 +1,5 @@
+# Sorteando uma ordem na lista
+
 import random
 
 n1 = str(input('Primeiro nome: '))

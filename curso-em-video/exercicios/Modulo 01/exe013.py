@@ -1,3 +1,5 @@
+# Reajuste Salarial
+
 sala = float(input('Qual o valor do salário? R$'))
 adicional = int(input('Quantos porcentos esse mês? '))
 

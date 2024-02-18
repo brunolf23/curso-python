@@ -1,3 +1,5 @@
+# Analisando Triângulo v.1.0
+
 r1 = float(input('Digite o comprimento de uma reta: '))
 r2 = float(input('Digite o comprimento da segunda reta: '))
 r3 = float(input('Digite o comprimento da terceira reta: '))

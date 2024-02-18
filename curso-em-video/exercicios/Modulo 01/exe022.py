@@ -1,3 +1,5 @@
+# Analisador de Textos
+
 nome = str(input('Digite seu nome completo: ')).strip()
 print ('Analisando seu nome...')
 print (f'Seu nome em maiúsculas é {nome.upper()}.')

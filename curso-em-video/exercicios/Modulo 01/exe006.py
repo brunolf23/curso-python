@@ -1,3 +1,5 @@
+# Dobro, Triplo, Raiz Quadrada
+
 n1 = int(input('Digite um número: '))
 do = n1 * 2
 tri = n1 * 3

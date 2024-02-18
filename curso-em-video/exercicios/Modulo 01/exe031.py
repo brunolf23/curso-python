@@ -1,3 +1,5 @@
+# Maior e menos valores
+
 viagem = float(input('Qual a distância da viagem em Km? '))
 
 if viagem <= 200:

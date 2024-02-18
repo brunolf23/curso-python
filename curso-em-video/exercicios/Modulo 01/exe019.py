@@ -1,3 +1,5 @@
+# Sorteando um item na lista
+
 import random
 
 n1 = str(input('Qual o primeiro nome? '))

@@ -1,3 +1,5 @@
+# Jogo da Adiovinhação v.1.0
+
 from random import randint
 from time import sleep
 

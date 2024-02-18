@@ -1,3 +1,5 @@
+# Pintando Parede
+
 lar = float(input('Qual a largura da sua parede? '))
 alt = float(input('Qual a altura da sua parede? '))
 

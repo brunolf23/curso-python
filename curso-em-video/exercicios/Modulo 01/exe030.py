@@ -1,3 +1,5 @@
+# Par ou Ímpar?
+
 numero = int(input('Digite um número para saber se é par ou ímpar: '))
 calcular = numero % 2
 

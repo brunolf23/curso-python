@@ -1,3 +1,5 @@
+# Radar eletrônico
+
 velocidade = int(input('Qual a velocidade do carro? '))
 
 multa = (velocidade - 80) * 7

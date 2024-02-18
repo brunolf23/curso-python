@@ -1,3 +1,5 @@
+# Separando dígitos de um número
+
 numero = int(input('Informe um número: '))
 n = str(numero)
 

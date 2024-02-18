@@ -1,3 +1,5 @@
+# Calculando Descontos
+
 pre = float(input('Digite o preço do produto: R$'))
 por = int(input('Qual o desconto?: '))
 des = pre - (pre * por/100)

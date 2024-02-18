@@ -1,3 +1,5 @@
+# Antecessor e Sucessor
+
 n1 = int(input('Diga um número: '))
 ante = n1 - 1
 su = n1 + 1

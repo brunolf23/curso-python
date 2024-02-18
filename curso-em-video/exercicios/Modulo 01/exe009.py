@@ -1,3 +1,5 @@
+# Tabuada
+
 inteiro = int(input('Qual número você gostaria de multiplicar?: '))
 #n1 = inteiro * 1
 n2 = inteiro * 2

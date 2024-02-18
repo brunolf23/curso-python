@@ -1,3 +1,5 @@
+# Média Aritmética
+
 n1 = float(input('Digite a sua nota AV1: '))
 n2 = float(input('Digite a sua nota AV2: '))
 
