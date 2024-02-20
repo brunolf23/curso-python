@@ -1,10 +1,16 @@
-valor = float(input('Qual o valor do imóvel? '))
-salario = float(input('Qual o seu salário? '))
-ano = int(input('Em quantos anos você ira pagar? '))
+# Aprovando Empréstimo
+
+valor = float(input('Qual o valor do imóvel? R$'))
+salario = float(input('Qual o seu salário? R$'))
+ano = int(input('Em quantos anos de financiamento? '))
 
 valor_mensal = valor / (ano * 12)
+minimo = salario * 30/100
 
-if valor_mensal > (salario + 30/100):
-    print ('O empréstimo está negado!')
+print (f'Para pegar uma casa no valor de R${valor} em {ano} anos, a prestação sera de R${valor_mensal:.2f}.')
+
+if valor_mensal >= minimo:
+    print ('Empréstimo NEGADO!')
+    
 else:
-    print ('Você ira conseguir o empréstimo')
+    print ('Empréstimo APROVADO!')
