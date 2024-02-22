@@ -1,7 +1,6 @@
 # Pedra, Papel e Tesoura
 
 from random import randint
-from time import sleep
 
 lista = ('Pedra', 'Papel', 'Tesoura')
 sortear = randint(0, 2)
@@ -47,3 +46,29 @@ elif sortear == 2:
         
     elif jogada == 2:
         print ('EMPATE')
+        
+        
+'''from random import randint
+
+opcoes = ['Pedra', 'Papel', 'Tesoura']
+
+print('Suas opções:')
+for i, op in enumerate(opcoes):
+    print(f'[{i}] {op}')
+
+escolha_jogador = int(input('Qual é a sua jogada? '))
+escolha_computador = randint(0, 2)
+
+print('-=' * 15)
+print(f'O computador escolheu {opcoes[escolha_computador]}')
+print(f'O jogador escolheu {opcoes[escolha_jogador]}')
+print('-=' * 15)
+
+resultado = (escolha_jogador - escolha_computador) % 3
+
+if resultado == 0:
+    print('EMPATE')
+elif resultado == 1:
+    print('O JOGADOR VENCE')
+else:
+    print('O COMPUTADOR VENCE')'''
