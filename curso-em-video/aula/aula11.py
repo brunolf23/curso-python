@@ -1,3 +1,5 @@
+# Cores no Terminal
+
 print ('\033[7;31;47mBruno Lopes Figueiredo\033[m')
 
 nome = 'Bruno Lopes'

@@ -1,3 +1,5 @@
+# Operadores Aritméticos
+
 n1 = int(input('Um valor: '))
 n2 = int(input('Outro valor: '))
 so = n1 + n2

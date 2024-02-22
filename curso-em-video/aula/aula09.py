@@ -1,3 +1,5 @@
+# Manipulando Texto
+
 frase = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
 print (frase.replace('sed', 'Bruno Lindo'))
 print (len(frase))

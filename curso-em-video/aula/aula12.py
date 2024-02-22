@@ -1,3 +1,5 @@
+# Condições Aninhadas pt 2
+
 nome = str(input('Qual o seu nome? '))
 
 if nome == 'Bruno':
