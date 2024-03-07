@@ -1,8 +1,6 @@
 # Python
 
-<p>
- Exercícios em Python que vou praticando
-</p>
+  Exercícios em Python que vou praticando
 
 <ul>
  <li>Variáveis</li>
