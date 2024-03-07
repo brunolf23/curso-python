@@ -1,6 +1,4 @@
-<h2>
- Python
-</h2>
+# Python
 
 <p>
  Exercícios em Python que vou praticando
