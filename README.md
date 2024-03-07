@@ -1,6 +1,6 @@
-# Python
+<h1 align="center">Python</h1>
 
-  Exercícios em Python que vou praticando
+Exercícios em Python que vou praticando
 
 <ul>
  <li>Variáveis</li>
