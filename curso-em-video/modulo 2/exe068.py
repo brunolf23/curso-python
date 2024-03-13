@@ -6,15 +6,28 @@ print ('-=' *25)
 print ('VAMOS JOGAR PAR OU ÍMPAR')
 print ('-=' *25)
 
+contador = 0
 while True:
-    numero_aleatorio = random.randint(1, 100)
     numero = int(input('Digite um valor: '))
+    numero_aleatorio = random.randint(1, 100)
     resultado = numero_aleatorio + numero
     escolha = ' '
     while escolha not in 'PI':
-        escolha = str(input('Par ou Ímpar: [P/I] ')).upper()
+        escolha = str(input('Par ou Ímpar: [P/I] ')).upper().strip()
         if escolha == 'P':
-            print (f'par {resultado}')
+            if resultado % 2 == 0:
+                print (f'Você venceu {resultado}')
+                contador += 1
+            else:
+                print ('Você perdeu!')
+                break
         elif escolha == 'I':
-            print (f'impar {resultado}')
+            if resultado % 2 == 1:
+                print (f'Você venceu! {resultado}')
+                contador += 1
+            else:
+                print ('Voce perdeu')
+                break
+        print ('Vamos jogar novamente?')
+    print (f'GAME OVER! Você venceu {contador} vezes.')
     
