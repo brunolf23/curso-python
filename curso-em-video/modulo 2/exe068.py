@@ -14,20 +14,19 @@ while True:
     escolha = ' '
     while escolha not in 'PI':
         escolha = str(input('Par ou Ímpar: [P/I] ')).upper().strip()
-        if escolha == 'P':
-            if resultado % 2 == 0:
-                print (f'Você venceu {resultado}')
-                contador += 1
-            else:
-                print ('Você perdeu!')
+    if escolha == 'P':
+        if resultado % 2 == 0:
+            print (f'Você venceu! {resultado} é par.')
+            contador += 1
+        else:
+                print (f'Você perdeu, {resultado} é ímpar.')
                 break
-        elif escolha == 'I':
-            if resultado % 2 == 1:
-                print (f'Você venceu! {resultado}')
-                contador += 1
-            else:
-                print ('Voce perdeu')
-                break
-        print ('Vamos jogar novamente?')
-    print (f'GAME OVER! Você venceu {contador} vezes.')
-    
+    elif escolha == 'I':
+        if resultado % 2 == 1:
+            print (f'Você venceu! {resultado} é ímpar.')
+            contador += 1
+        else:
+            print (f'Voce perdeu, {resultado} é par.')
+            break
+    print ('Vamos jogar novamente?\n')
+print (f'GAME OVER! Você venceu {contador} vez(es).\n')
